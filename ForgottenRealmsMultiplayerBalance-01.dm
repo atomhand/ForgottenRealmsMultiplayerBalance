@@ -195,3 +195,25 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #weapon 2001 - Flaming Fist
 #weapon 2001 - Flaming Fist
 #end
+
+-- Mounted units fix
+
+#selectmonster 6885 -- Paladin of the God-King
+#mountmnr 3583 -- holy Destrier
+#cleararmor
+#clearweapons
+#weapon 4 -- Lance
+#weapon 12 -- Mace
+#armor 18 -- Full chain mail
+#armor 21 -- Full helmet
+#armor 3 -- Kite shield
+#end
+
+#selectmonster 7107 -- Death Knight of the Eternal Dragon
+#size 5
+#end
+
+-- Horseman should probably own a horse
+#selectmonster 137 -- Nar Horseman
+#mountmnr 3574 --Armored Steppe Horse
+#end

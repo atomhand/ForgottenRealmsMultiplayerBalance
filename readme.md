@@ -13,3 +13,6 @@ Fixes
  * Murabir General should not be naked and unarmed 
  * Halruaan Skyship should not cost 0CP
  * Earth, Air and Fire elementals could not use their fists due to not being humanoid
+ * Fix Paladin of the God-King missing mount and equipment
+ * Death Knight of the Eternal Dragon should be size 5
+ * Nar Horseman needs a horse
