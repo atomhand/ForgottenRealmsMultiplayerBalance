@@ -12,3 +12,4 @@ Fixes
  * Fix sailing for Lady Luck (needs to fit in her own boat) 
  * Murabir General should not be naked and unarmed 
  * Halruaan Skyship should not cost 0CP
+ * Earth, Air and Fire elementals could not use their fists due to not being humanoid

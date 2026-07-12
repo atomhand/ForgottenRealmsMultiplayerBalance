@@ -118,3 +118,80 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #rpcost 4
 #startitem 1000
 #end
+
+-- Fix elementals
+
+#newweapon 2000
+#name "Stone Fist"
+#copyweapon 562 -- Stone Fist
+#bonus
+#end
+
+#newweapon 2001
+#name "Flaming Fist"
+#copyweapon 320
+#bonus
+#end
+
+#newweapon 2002
+#name "Thunder Fist"
+#copyweapon 231
+#bonus
+#end
+
+#selectmonster 7027 --Large Air elemental
+#clearweapons
+#weapon 185 -- Lightning Swarm
+#weapon 2002 -- Thunder Fist
+#end
+
+#selectmonster 7028 --Large Air elemental
+#clearweapons
+#weapon 185 -- Lightning Swarm
+#weapon 185 -- Lightning Swarm
+#weapon 2002 -- Thunder Fist
+#end
+
+#selectmonster 7020 -- Small Earth Elemental
+#clearweapons
+#weapon 2000 -- Stone Fist
+#end
+
+#selectmonster 7021 -- Medium Earth Elemental
+#clearweapons
+#weapon 2000 -- Stone Fist
+#end
+
+#selectmonster 7022 -- Large Earth Elemental
+#clearweapons
+#weapon 2000 -- Stone Fist
+#weapon 2000 -- Stone Fist
+#end
+
+#selectmonster 7023 -- Huge Earth Elemental
+#clearweapons
+#weapon 2000 -- Stone Fist
+#weapon 2000 -- Stone Fist
+#end
+
+#selectmonster 7054 -- Small Fire Elemental
+#clearweapons
+#weapon 2001 - Flaming Fist
+#end
+
+#selectmonster 7055 -- Medium Fire Elemental
+#clearweapons
+#weapon 2001 - Flaming Fist
+#end
+
+#selectmonster 7056 -- Large Fire Elemental
+#clearweapons
+#weapon 2001 - Flaming Fist
+#weapon 2001 - Flaming Fist
+#end
+
+#selectmonster 7057 -- Huge Fire Elemental
+#clearweapons
+#weapon 2001 - Flaming Fist
+#weapon 2001 - Flaming Fist
+#end
