@@ -23,7 +23,7 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 
 -- BLOOD NERFS
 
-#selectspell 1504 -- Summon an Erinye Seductress
+#selectspell  "Summon an Erinye Seductress"
 #fatiguecost 2800
 #end
 
@@ -31,7 +31,7 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #douse -1
 #end
 
-#selectspell 1406 -- Bind Kyton
+#selectspell "Bind Kyton"
 #fatiguecost 2000
 #end
 
@@ -39,16 +39,16 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #douse -1
 #end
 
-#selectspell 1505 -- Summon a Contract Devil
+#selectspell "Summon a Contract Devil"
 #fatiguecost 3000
 #end
 
-#selectspell 1478 -- Summon an Infernal Barghest
+#selectspell "Summon Infernal Barghest"
 #fatiguecost 3500
 #end
 
 #selectitem 393 -- Sanguine Dowsing Rod
-#constlevel 11 -- Blood deserves just a tiny hit
+#nodemon
 #end
 
 #selectitem 1000
