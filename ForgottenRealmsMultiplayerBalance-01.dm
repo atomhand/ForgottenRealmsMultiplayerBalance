@@ -1,4 +1,4 @@
-#modname "Forgotten Realms Multiplayr Balance 0.1"
+#modname "Forgotten Realms Multiplayer Balance 0.1"
 #icon "FRlogo.tga"
 #version 0.1
 #domversion 6.00
@@ -19,6 +19,10 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #armor 9 -- plate cuirass
 #armor 118 -- half helm
 #armor 2 -- shield
+#end
+
+#selectmonster 8032 -- Halruaan Skyship
+#rpcost 4
 #end
 
 -- BLOOD NERFS

@@ -10,3 +10,4 @@ Balance Changes
 Fixes
     * Fix sailing for Lady Luck (she needs to fit in her own boat)
     * Murabir General should not be naked and unarmed
+    * Halruaan Skyship should not cost 0CP
