@@ -217,3 +217,15 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #selectmonster 137 -- Nar Horseman
 #mountmnr 3574 --Armored Steppe Horse
 #end
+
+-- Impiltur Holy Knight should probably be a troop, not a commander
+#selectsite 1658
+#clear
+#name "Temple of the Triad"
+#level 0
+#rarity 5
+#path 9
+#gems 4 1
+#com 440 -- Paladin
+#mon 2359 -- Holy Knight
+#end

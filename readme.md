@@ -9,10 +9,11 @@ Balance Changes
  * Give the Halruaan Skyship real airborne transporation (untransferrable duplicate of The Flying Ship)
 
 Fixes
- * Fix sailing for Lady Luck (needs to fit in her own boat) 
+ * Sailing for Lady Luck (needs to fit in her own boat) 
  * Murabir General should not be naked and unarmed 
  * Halruaan Skyship should not cost 0CP
  * Earth, Air and Fire elementals could not use their fists due to not being humanoid
- * Fix Paladin of the God-King missing mount and equipment
+ * Paladin of the God-King missing mount and equipment
  * Death Knight of the Eternal Dragon should be size 5
  * Nar Horseman needs a horse
+ * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
