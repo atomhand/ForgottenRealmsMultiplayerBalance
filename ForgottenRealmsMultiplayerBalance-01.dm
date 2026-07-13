@@ -627,6 +627,192 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #mon 6004 -- Griffon Ranger
 #end
 
+-- Dwarves
+
+-- mounted + shield, should not have 2h axe
+#selectmonster 7231 --Dwarven Battlerager
+#clearweapons
+#weapon 17 -- Axe
+#end
+
+-- SIZE FIXES
+
+#selectmonster 5041 -- Great Netyarch
+#size 3
+#end
+
+#selectmonster 6616 -- Hammer of Moradin
+#size 3
+#end
+
+#selectmonster 6874 -- Dwarven Miner
+#size 3
+#end
+
+#selectmonster 7009 -- Dwarven Hammer
+#size 3
+#end
+
+#selectmonster 7010 -- Dwarven Crossbowman
+#size 3
+#end
+
+#selectmonster 7030 -- Dwarven Lord
+#size 3
+#end
+
+#selectmonster 7182 -- Dwarven Cave Stalker
+#size 3
+#end
+
+#selectmonster 7183 -- Dwarven Battlesmith
+#size 3
+#end
+
+#selectmonster 7185 -- Deep Defender
+#size 3
+#end
+
+#selectmonster 7186 -- Dwarven Shieldsman
+#size 3
+#end
+
+#selectmonster 7187 -- Dwarven Gatekeeper
+#size 3
+#end
+
+#selectmonster 7189 -- Dwarven Thane
+#size 3
+#end
+
+#selectmonster 7191 -- Justice of Dumathoin
+#size 3
+#end
+
+#selectmonster 7192 -- Deathchanter
+#size 3
+#end
+
+#selectmonster 7193 -- Deepstone Sentinel
+#size 3
+#end
+
+#selectmonster 7194 -- Dwarven Runesmith
+#size 3
+#end
+
+#selectmonster 7195 -- Dwarven Ollam
+#size 3
+#end
+
+#selectmonster 7196 -- Stonelord
+#size 3
+#end
+
+#selectmonster 7197 -- Master Arcane Artisan
+#size 3
+#end
+
+#selectmonster 7201 -- King of Mithril hall
+#size 3
+#end
+
+#selectmonster 7231 -- Dwarven Battlerager
+#size 3
+#end
+
+#selectmonster 7401 -- Peacehammer
+#size 3
+#end
+
+#selectmonster 7422 -- Great Eagle Rider
+#size 3
+#end
+
+#selectmonster 7648 -- Barronar's Valkyrie
+#size 3
+#end
+
+#selectmonster 7649 -- King of Iltkazar
+#size 3
+#end
+
+#selectmonster 5072 -- Deurgar Blackguard
+#size 3
+#end
+
+#selectmonster 5082 -- High King of Corwell
+#size 3
+#end
+
+#selectmonster 5099 -- Kazgaroth's Tristan
+#size 3
+#end
+
+#selectmonster 5104 -- Champion of Tempus
+#size 3
+#end
+
+#selectmonster 5120 -- Wizard King
+#size 3
+#end
+
+#selectmonster 6697 -- Duergar Slave
+#size 3
+#end
+
+#selectmonster 7224 -- Duergar Master Artisan
+#size 3
+#end
+
+#selectmonster 7225 -- Duergar Stonereaver
+#size 3
+#end
+
+#selectmonster 7226 -- Duergar Battlehammer
+#size 3
+#end
+
+#selectmonster 7227 -- Duergar Heavy Axeman
+#size 3
+#end
+
+#selectmonster 7228 -- Duergar Mauler
+#size 3
+#end
+
+#selectmonster 7229 -- Duergar Scorpion
+#size 3
+#end
+
+#selectmonster 7230 -- Duergar Laird
+#size 3
+#end
+
+#selectmonster 7232 -- Duergar Mind Master
+#size 3
+#end
+
+#selectmonster 7233 -- Duergar Runesmith
+#size 3
+#end
+
+#selectmonster 7237 -- Duergar Thuldor
+#size 3
+#end
+
+#selectmonster 7239 -- Duergar Kavalrachni
+#size 3
+#end
+
+#selectmonster 7240 -- Duergar Master Artisan
+#size 3
+#end
+
+#selectmonster 7242 -- Duergar Deep Scout
+#size 3
+#end
+
 -- Misc
 
 #selectmonster 7401 -- Peacehammer

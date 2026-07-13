@@ -24,6 +24,7 @@ Balance Changes
      * Replace light cavalry with a custom medium cavalry ("These troops are the front line of Aglarondan defense, and are well trained and equipped."  Spellbound p. 52)
 
 Fixes
+ * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
  * Sailing for Lady Luck (needs to fit in her own boat) 
  * Earth, Air and Fire elementals could not use their fists due to not being humanoid
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
@@ -39,4 +40,5 @@ Fixes
    * Amnian Heavy Cavalry missing lance
    * Calishite Rider should have a reusable lance, not lance+spear
    * Halfling Outrider's lance should be single-use
-   * Purple Dragon Knight should use one-handed flail instead of two-handed
+   * Purple Dragon Knight should use one-handed flail instead of two-handed (is mounted, has shield)
+   * Dwarven Battlerager should use a one-handed axe instead of two-handed (is mounted, has shield)
