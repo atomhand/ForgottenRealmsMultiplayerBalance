@@ -7,6 +7,8 @@ Balance Changes
    * Douse -1 to Kyton and Erinye Seductress
    * Sanguine Dowsing Rod cannot be used by demons
  * Give the Halruaan Skyship real airborne transporation (untransferrable duplicate of The Flying Ship)
+ * Improve scales troops for human nations
+   * Impiltur new unit: Warsword, a good quality medium cavalry unit (replaces generic Light/Heavy Cavalry recruits)
 
 Fixes
  * Sailing for Lady Luck (needs to fit in her own boat) 

@@ -256,3 +256,46 @@ Myrkul and Bane betrayed their brother, Bhaal, but in many lands, the Shadow Thi
 
 The vaults of the Thieves Guild have been looted in ##landname##, and their shrines to Bhaal destroyed. [Shadow Thieves Guild]"
 #end
+
+-- Impiltur buffs
+
+#newmonster 6000
+#copystats 2899 --Kernou Cavalry
+#spr1 "FRMultiplayer/warsword_1.png"
+#spr2 "FRMultiplayer/warsword_2.png"
+#unmountedspr1 "FRMultiplayer/warsword_unmounted_1.png"
+#unmountedspr2 "FRMultiplayer/warsword_unmounted_2.png"
+#name "Warsword"
+#descr "The Warswords were the regular militia of Impiltur. Typically organised in patrols of twenty or more, they kept the peace on the roads and in settlements. The lords of the realm could also mobilise larger forces to scour major threats from orc to demon.
+
+Impiltur is a martial society and at any time the Warswords are continually deployed in patrols, training exercises or major expeditions. Accordingly the Warswords are composed of highly skilled veterans."  
+#basecost 10010
+#hp 10
+#att 12
+#def 12
+#mor 12
+#skilledrider 2
+#clearweapons
+#weapon 8 -- Broad Sword
+#weapon 4 -- Lance
+#patrolbonus 2
+#end
+
+#selectnation 215 -- Impiltur
+#clearrec
+
+#addrecunit 285		-- Spearman
+#addrecunit 286		-- Maceman
+#addrecunit 287		-- Swordsman
+#addrecunit 289 	-- Pikeneer
+#addrecunit 290		-- Crossbowmen
+#addrecunit 6000 	-- Warsword
+
+#addreccom 431	 	-- Scout
+#addreccom 291		-- Captain
+#addreccom 23		-- Knight Commander
+#addreccom 6754 	-- Field Wizard
+#addreccom 7007		-- Cleric of Helm
+#addreccom 6623		-- Cleric of Tyr
+#addreccom 6705 	-- Cleric of Ilmater 
+#end
