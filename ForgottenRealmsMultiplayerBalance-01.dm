@@ -815,6 +815,44 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 
 -- Misc
 
+-- builtin Main Gauche of Parrying should not be tradable
+--3901 -- Cleric of Isis - wears linens and carries a Main Gauche of Parrying
+#newmonster 6901
+#copystats 2069
+#copyspr 2069 
+#name "Cleric of Isis"
+#descr "The clergy of the church of Isis was primarily composed of women of Mulan descent, though a few half-elves also followed the Bountiful Lady. These priestesses must study arcane magics as well as divine. Clerics of Isis spent much of their time administering to the agricultural needs of Mulhorand, as well as the needs of typical home life. They were always immaculately dressed and though they shaved their heads, each wore an ornate headdress blessed by their loving goddess.
+
+Temples dedicated to Isis remained open to the weather, and flowing water was often incorporated in their construction. The center of the church of Isis was the Mystic Cornucopia, located in the Great Vale. Additional major temples included the Temple of Bountiful Joy in Skuld and the Spring of Eternal Hope in Shussel, a city located in the nation of Unther.
+
+There were two Orders within the clergy, the Sisters of Life and the Shield of the Lady. Both were frequently found amongst sanctioned adventuring parties in Mulhorand, assisting with the demands of the important and dangerous quests undertaken by the state." 
+#female
+#nametype 132
+#hp 18
+#mr 14
+#mor 14
+#att 9
+#def 12
+#prec 12
+#clearweapons
+#weapon 99
+#armor 234
+#clearmagic
+#magicskill 1 1
+#magicskill 2 1
+#magicskill 4 1
+#magicskill 6 1
+#magicskill 9 2
+#custommagic 10496 100 --d6x
+#researchbonus -3
+#holy
+#poorleader
+#autohealer 1
+#autodishealer 1
+#sailing 3 3
+#mapmove 18
+#end
+
 #selectmonster 7401 -- Peacehammer
 #mountmnr 6001 -- Griffon (armored)
 #end

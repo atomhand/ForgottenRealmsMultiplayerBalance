@@ -42,3 +42,4 @@ Fixes
    * Halfling Outrider's lance should be single-use
    * Purple Dragon Knight should use one-handed flail instead of two-handed (is mounted, has shield)
    * Dwarven Battlerager should use a one-handed axe instead of two-handed (is mounted, has shield)
+   * Cleric of Isis has a builtin #weapon Main Gauche of parrying instead of a tradeable #startitem
