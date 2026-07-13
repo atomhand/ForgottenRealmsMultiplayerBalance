@@ -348,3 +348,32 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #addreccom 6623		-- Cleric of Tyr
 #addreccom 6705 	-- Cleric of Ilmater 
 #end
+
+-- Sister of Synnoria buffs
+-- "This elite band of knights is armed with silver lances and enchanted long swords" Forgotten Realms Moonshae p. 56
+
+#newweapon 1900
+#copyweapon 4
+#name "Silver Lance"
+#magic
+#dt_holy
+#end
+
+#selectmonster 5086
+#clearweapons
+#weapon 75 -- Enchanted Sword
+#weapon 1900 -- Silver Lance
+#weapon 613 -- Enchanted bow
+#end
+
+#selectmonster 5087 -- Captain of Synnoria
+#clearweapons
+#weapon 75 -- Enchanted Sword
+#weapon 1900 -- Silver Lance
+#weapon 613 -- Enchanted bow
+-- Captains are typically more elite than the regular troops
+#att 13
+#def 13
+#mor 15
+#str 12
+#end
