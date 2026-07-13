@@ -18,6 +18,7 @@ Fixes
  * Sailing for Lady Luck (needs to fit in her own boat) 
  * Earth, Air and Fire elementals could not use their fists due to not being humanoid
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
+ * Huge elementals should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
  * Recruitment anomalies
    * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman
    * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders

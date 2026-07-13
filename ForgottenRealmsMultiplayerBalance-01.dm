@@ -196,6 +196,99 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #weapon 2001 - Flaming Fist
 #end
 
+-- Huge elemental mobility fix
+
+#selectmonster 7023 -- Huge earth elemental
+#clearspec
+#ambidextrous 2
+#magicbeing
+#miscshape
+#decayres 1
+#poisonres 25
+#acidres -5
+#blind
+#slashres
+#pierceres
+#bluntres
+#amphibian
+#gemprod 3 1
+#siegebonus 30
+#castledef 30
+#noleader
+#nomagicleader
+#noundeadleader
+#mapmove 0
+#end
+
+#selectmonster 7028 --Huge Air elemental
+#clearspec
+#ambidextrous 2
+#magicbeing
+#miscshape
+#decayres 1
+#coldres 25
+#shockres 25
+#fireres -5
+#darkvision 60
+#invulnerable 20
+#slashres
+#pierceres
+#bluntres
+#amphibian
+#gemprod 1 1
+#airshield 90
+#stormimmune
+#unsurr 5
+#noleader
+#nomagicleader
+#noundeadleader
+#mapmove 0
+#end
+
+#selectmonster 7057 --Huge fire elemental
+#clearspec
+#ambidextrous 2
+#magicbeing
+#miscshape
+#fireres 25
+#coldres -5
+#darkvision 60
+#invulnerable 15
+#floating
+#slashres
+#pierceres
+#bluntres
+#uwdamage 20
+#gemprod 0 1
+#fireshield 10
+#noleader
+#nomagicleader
+#noundeadleader
+#mapmove 0
+#end
+
+#selectmonster 7067 --Huge water elemental
+#clearspec
+#ambidextrous 2
+#magicbeing
+#miscshape
+#decayres 1
+#coldres 25
+#acidres 25
+#shockres -5
+#darkvision 60
+#invulnerable 20
+#pierceres
+#bluntres
+#amphibian
+#gemprod 2 1
+#unsurr 2
+#noleader
+#nomagicleader
+#noundeadleader
+#mapmove 0
+#end
+
 -- RPCOST ANOMALIES
 
 #selectmonster 6836 -- Proudspear
