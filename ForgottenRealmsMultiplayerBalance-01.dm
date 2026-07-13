@@ -196,6 +196,29 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #weapon 2001 - Flaming Fist
 #end
 
+-- RPCOST ANOMALIES
+
+#selectmonster 6836 -- Proudspear
+#rpcost 10000
+#end
+
+#selectmonster 6837-- Wemic shaman
+#rpcost 10000
+#end
+
+#selectmonster 6838-- Wemic huntress
+#rpcost 10000
+#end
+
+#selectmonster 6839 -- Wemic firemane
+#rpcost 10000
+#end
+
+#selectmonster 6840 -- Wemic warrior
+#rpcost 10000
+#end
+
+
 -- MOUNT AND EQUIPMENT ANOMALIES
 
 #selectmonster 6885 -- Paladin of the God-King

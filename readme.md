@@ -15,7 +15,7 @@ Fixes
  * Earth, Air and Fire elementals could not use their fists due to not being humanoid
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
  * Recruitment anomalies
-   * Halruaan Skyship should not cost 0CP
+   * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman
    * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
  * Equipment & mount anomalies
    * Murabir General should not be naked and unarmed 
