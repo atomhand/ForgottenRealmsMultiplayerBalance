@@ -509,9 +509,11 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #end
 
 #selectmonster 6608 --Griffon Rider
+-- Example Griffon Rider in the book is a level 6 fighter with Mounted Combat feats
 #str 12
 #att 13
 #def 13
+#skilledrider 2
 #clearweapons
 #weapon 1901 -- Lance of Burning Blackfire
 #weapon 8 -- Broad Sword
@@ -521,6 +523,108 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #selectmonster 6606 --Knight of the lords' Alliance
 #att 12
 #def 11
+#end
+
+-- Aglarond
+
+#newmonster 6003
+#copystats 56 -- Royal Forester
+#copyspr 56
+#name "Forester"
+#descr "The Foresters are an elite corps of rangers in service to the Aglarondan crown. Occupying the Yuirwood, they maintain contacts with the half-elven tribes and keep watch against invasion."
+#clearweapons
+#weapon 17 --Axe
+#weapon 17 --Axe
+#weapon 1830 --Elite Longbow
+#cleararmor
+#armor 120 --Leather cap
+#armor 10 --Leather hauberk
+#hp 12
+#mr 11
+#patrolbonus 2
+#ambidextrous 2
+#str 12
+#att 11
+#def 12
+#gcost 10014
+#end
+
+#newmonster 6004
+#copystats 6608
+#copyspr 6608
+#name "Griffon Ranger"
+#descr "Aglarond maintains a small unit of griffon-riders at the capital. They tend to be used as messengers and scouts rather than as shock troops."
+#clearweapons
+#weapon 357 -- Light Lance (re-usable)
+#weapon 1831 -- Elite shortbow
+#mountmnr 3544
+#str 11
+#hp 12
+#stealthy 0
+#patrolbonus 20
+#reclimit 2
+#gcost 10000
+#end
+
+#newmonster 6005
+#copystats 2129 -- Logrian Cavalry
+#spr1 "FRMultiplayer/aglarondan_cav_1.png"
+#spr2 "FRMultiplayer/aglarondan_cav_2.png"
+#unmountedspr1 "FRMultiplayer/aglarondan_cav_unmounted_1.png"
+#unmountedspr2 "FRMultiplayer/aglarondan_cav_unmounted_2.png"
+#name "Aglarondan Cavalry"
+#descr "The standing army stationed at Glarondar and Emmech included a small number of cavalry. Although small, the troops of the standing army were the front line of Aglarondan defense, and were well trained and equipped."
+#hp 11
+#def 11
+#cleararmor
+#armor 13 -- Chain hauberk
+#armor 20 -- Iron cap
+#armor 16 -- Shield
+#clearweapons
+#weapon 4 -- Lance
+#weapon 17 -- Axe
+#end 
+
+#selectnation 214 --Aglarond
+#clearrec
+
+#forestrec 6003     -- Forester
+#forestrec 7348 	-- Wood Elf Archer
+#forestcom 7002 	-- Yuirwood Ranger
+#forestcom 6813		-- Elven Bladesinger
+#forestcom 6618 	-- Priestess of Selune
+
+#addrecunit 7001 	-- Free Spear Militia
+#addrecunit 289 	-- Pikeneer
+#addrecunit 2455 		-- Longbowmen
+#addrecunit 6005 		-- Aglarondan Cavalry
+
+
+
+#addreccom 7349 -- Half-elf Champion
+#addreccom 46	-- Mounted Commander
+#addreccom 6813	-- Elven Bladesinger
+#addreccom 6618 -- Priestess of Selune
+#addreccom 7004 -- Wavecaptain of Valkur
+#addreccom 7003 -- Priestess of Chauntea
+
+#end
+
+-- Remove royal forester recruit
+#selectsite 1624
+#clear
+#name "Palace of the Simbul"
+#path 9
+#level 0
+#rarity 5
+#gems 0 2
+#gems 1 1
+#gems 4 1
+#gems 6 2
+#com 7006   -- Simbarch Apprentice
+#com 7005 	-- Simbarch Sorceress
+#mon 6003 -- Forester
+#mon 6004 -- Griffon Ranger
 #end
 
 -- Misc

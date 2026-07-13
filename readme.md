@@ -1,4 +1,4 @@
-This is an unoffocial "balance" patch for the Forgotten Realms mod for Dominion 6.
+This is an unofficial "balance" patch for the Forgotten Realms mod for Dominion 6.
 The goal is just to fix anything that is outright broken, not actually bring about parity between factions.
 
 Balance Changes
@@ -17,6 +17,11 @@ Balance Changes
      * Buff stats on Griffon Riders and Knights of the Lords Alliance
      * Swap Griffon Rider lance out for Lance of Burning Blackfire (City of Spendors: Waterdeep p. 33, 148)
      * Give Griffon mounts some light armour (also affects Peacehammer site recruit)
+  * Aglarond
+     * Swap indie-tier longbowman for LA Man's slightly better one
+     * Forester is a bit cheaper and has more elite stats ("The elite corps of foresters" Spellbound p. 52)
+     * Add a reclimited "Griffon Ranger" unit ("A unit of griffon riders is staioned at Glarondar, but these are few in number and are used primarily for scouting and as dispatch riders."  Spellbound p. 52)
+     * Replace light cavalry with a custom medium cavalry ("These troops are the front line of Aglarondan defense, and are well trained and equipped."  Spellbound p. 52)
 
 Fixes
  * Sailing for Lady Luck (needs to fit in her own boat) 
