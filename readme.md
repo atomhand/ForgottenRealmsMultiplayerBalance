@@ -17,3 +17,4 @@ Fixes
  * Fix missing/broken mounts for Nar Horseman, Tharcion, Paladin of the God-King
  * Paladin of the God-King missing equipment
  * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
+ * "The darkstalker wars conclude" event was broken due to a missing quote mark
