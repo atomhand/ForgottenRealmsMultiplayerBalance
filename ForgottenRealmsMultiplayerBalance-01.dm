@@ -470,3 +470,61 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #mor 15
 #str 12
 #end
+
+-- Waterdeep buffs
+
+
+#newweapon 1903
+#name "Blackfire Flames"
+#fire
+#armorpiercing
+#nostr
+#dmg 11
+#end
+
+#newweapon 1902
+#name "Blackfire Corrosion"
+#armorpiercing
+#acid
+#nostr
+#dmg 11
+#secondaryeffectalways 1903
+#end
+
+#newweapon 1901
+#copyweapon 4
+#name "Lance of Burning Blackfire"
+#magic
+#att 2
+#dmg 7
+#secondaryeffectalways 1902
+#end
+
+#newmonster 6001
+#copystats 3544
+#copyspr 3544
+#name "Griffon"
+#descr "Griffons were semi-intelligent beasts with a body like a lion and the wings, forelegs, and head like those of an eagle. They were highly sought after as flying mounts."
+#armor 252 -- Light Scale Barding
+#end
+
+#selectmonster 6608 --Griffon Rider
+#str 12
+#att 13
+#def 13
+#clearweapons
+#weapon 1901 -- Lance of Burning Blackfire
+#weapon 8 -- Broad Sword
+#mountmnr 6001 -- Griffon (armored)
+#end
+
+#selectmonster 6606 --Knight of the lords' Alliance
+#att 12
+#def 11
+#end
+
+-- Misc
+
+#selectmonster 7401 -- Peacehammer
+#mountmnr 6001 -- Griffon (armored)
+#end

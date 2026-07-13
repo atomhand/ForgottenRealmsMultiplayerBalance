@@ -12,7 +12,11 @@ Balance Changes
      * new unit: Warsword, a good quality medium cavalry unit (replaces generic Light/Heavy Cavalry recruits)
    * Corwell
      * Sister of Synnoria weapons changed to Enchanted Sword, Silver Lance, Enchanted Bow (Forgotten Realms Moonshae p. 56)
-     * Captain of Synnoria gets above changes and slightly better stats than the regular Sisters
+     * Captain of Synnoria gets above changes and slightly better stats than the regular Sisters#
+   * Waterdeep
+     * Buff stats on Griffon Riders and Knights of the Lords Alliance
+     * Swap Griffon Rider lance out for Lance of Burning Blackfire (City of Spendors: Waterdeep p. 33, 148)
+     * Give Griffon mounts some light armour (also affects Peacehammer site recruit)
 
 Fixes
  * Sailing for Lady Luck (needs to fit in her own boat) 
