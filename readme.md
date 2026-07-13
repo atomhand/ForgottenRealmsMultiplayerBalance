@@ -24,15 +24,13 @@ Balance Changes
      * Replace light cavalry with a custom medium cavalry ("These troops are the front line of Aglarondan defense, and are well trained and equipped."  Spellbound p. 52)
 
 Fixes
- * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
- * Sailing for Lady Luck (needs to fit in her own boat) 
- * Earth, Air and Fire elementals could not use their fists due to not being humanoid
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
  * Huge elementals should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
  * Recruitment anomalies
    * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman
    * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
  * Equipment & mount anomalies
+   * Earth, Air and Fire elementals could not use their fists due to not being humanoid
    * Murabir General should not be naked and unarmed 
    * Death Knight of the Eternal Dragon should be size 5
    * Fix missing/broken mounts for Nar Horseman, Tharcion, Paladin of the God-King
@@ -43,3 +41,7 @@ Fixes
    * Purple Dragon Knight should use one-handed flail instead of two-handed (is mounted, has shield)
    * Dwarven Battlerager should use a one-handed axe instead of two-handed (is mounted, has shield)
    * Cleric of Isis has a builtin #weapon Main Gauche of parrying instead of a tradeable #startitem
+ * Other stats anomalies
+   * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
+   * Sailing for Lady Luck (needs to fit in her own boat) 
+   * Barronar Valkyrie had formation fighter 1 (increased to 2)

@@ -635,6 +635,11 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #weapon 17 -- Axe
 #end
 
+
+#selectmonster 7648 -- Barronar's Valkyrie
+#formationfighter 2
+#end
+
 -- SIZE FIXES
 
 #selectmonster 5041 -- Great Netyarch
