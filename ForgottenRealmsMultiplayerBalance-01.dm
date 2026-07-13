@@ -213,9 +213,14 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #size 5
 #end
 
--- Horseman should probably own a horse
+-- MISSING MOUNTS
+
 #selectmonster 137 -- Nar Horseman
 #mountmnr 3574 --Armored Steppe Horse
+#end
+
+#selectmonster 6862 --Tharcion
+#mountmnr 3531 --Cataphracted Mouflon
 #end
 
 -- Impiltur Holy Knight should probably be a troop, not a commander
