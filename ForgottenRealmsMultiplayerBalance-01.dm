@@ -641,6 +641,22 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #size 3
 #end
 
+#selectmonster 5082 -- High King of Corwell
+#size 3
+#end
+
+#selectmonster 5099 -- Kazgaroth's Tristan
+#size 3
+#end
+
+#selectmonster 5104 -- Champion of Tempus
+#size 3
+#end
+
+#selectmonster 5120 -- Wizard King
+#size 3
+#end
+
 #selectmonster 6616 -- Hammer of Moradin
 #size 3
 #end
@@ -738,22 +754,6 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #end
 
 #selectmonster 5072 -- Deurgar Blackguard
-#size 3
-#end
-
-#selectmonster 5082 -- High King of Corwell
-#size 3
-#end
-
-#selectmonster 5099 -- Kazgaroth's Tristan
-#size 3
-#end
-
-#selectmonster 5104 -- Champion of Tempus
-#size 3
-#end
-
-#selectmonster 5120 -- Wizard King
 #size 3
 #end
 

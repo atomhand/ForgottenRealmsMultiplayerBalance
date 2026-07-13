@@ -12,12 +12,12 @@ Balance Changes
      * new unit: Warsword, a good quality medium cavalry unit (replaces generic Light/Heavy Cavalry recruits)
    * Corwell
      * Sister of Synnoria weapons changed to Enchanted Sword, Silver Lance, Enchanted Bow (Forgotten Realms Moonshae p. 56)
-     * Captain of Synnoria gets above changes and slightly better stats than the regular Sisters#
+     * Captain of Synnoria gets above changes and slightly better stats than the regular Sisters
    * Waterdeep
      * Buff stats on Griffon Riders and Knights of the Lords Alliance
      * Swap Griffon Rider lance out for Lance of Burning Blackfire (City of Spendors: Waterdeep p. 33, 148)
      * Give Griffon mounts some light armour (also affects Peacehammer site recruit)
-  * Aglarond
+   * Aglarond
      * Swap indie-tier longbowman for LA Man's slightly better one
      * Forester is a bit cheaper and has more elite stats ("The elite corps of foresters" Spellbound p. 52)
      * Add a reclimited "Griffon Ranger" unit ("A unit of griffon riders is staioned at Glarondar, but these are few in number and are used primarily for scouting and as dispatch riders."  Spellbound p. 52)
