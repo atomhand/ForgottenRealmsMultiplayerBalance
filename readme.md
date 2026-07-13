@@ -12,11 +12,17 @@ Balance Changes
 
 Fixes
  * Sailing for Lady Luck (needs to fit in her own boat) 
- * Murabir General should not be naked and unarmed 
- * Halruaan Skyship should not cost 0CP
  * Earth, Air and Fire elementals could not use their fists due to not being humanoid
- * Death Knight of the Eternal Dragon should be size 5
- * Fix missing/broken mounts for Nar Horseman, Tharcion, Paladin of the God-King
- * Paladin of the God-King missing equipment
- * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
+ * Recruitment anomalies
+   * Halruaan Skyship should not cost 0CP
+   * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
+ * Equipment & mount anomalies
+   * Murabir General should not be naked and unarmed 
+   * Death Knight of the Eternal Dragon should be size 5
+   * Fix missing/broken mounts for Nar Horseman, Tharcion, Paladin of the God-King
+   * Paladin of the God-King missing equipment
+   * Amnian Heavy Cavalry missing lance
+   * Calishite Rider should have a reusable lance, not lance+spear
+   * Halfling Outrider's lance should be single-use
+   * Purple Dragon Knight should use one-handed flail instead of two-handed

@@ -196,7 +196,7 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #weapon 2001 - Flaming Fist
 #end
 
--- Mounted units fix
+-- MOUNT AND EQUIPMENT ANOMALIES
 
 #selectmonster 6885 -- Paladin of the God-King
 #mountmnr 3583 -- holy Destrier
@@ -211,6 +211,32 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 
 #selectmonster 7107 -- Death Knight of the Eternal Dragon
 #size 5
+#end
+
+-- missing lance from sprite
+#selectmonster 7297 --Amnian Heavy Cavalry
+#weapon 4
+#end
+
+-- Should have a reusable light lance, not a lance+spear
+#selectmonster 7660 - Calishite Rider
+#clearweapons
+#weapon 357 --Light Lance (re-usable)
+#end
+
+--Has another weapon, so lance should not be reusable
+#selectmonster 6643 --Halfling Outrider
+#clearweapons
+#weapon 6 -- Short sword
+#weapon 596 -- Light Lance (single use)
+#weapon 20 -- Bite
+#end
+
+-- Shouldn't use two-handed flail when mounted and using a shield
+#selectmonster 6744 -- Purple Dragon Knight
+#clearweapons
+#weapon 4 -- Lance
+#weapon 347 -- Flail (one-handed)
 #end
 
 -- MISSING MOUNTS
