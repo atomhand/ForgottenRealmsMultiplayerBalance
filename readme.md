@@ -8,7 +8,7 @@ Balance Changes
    * Sanguine Dowsing Rod cannot be used by demons
  * Give the Halruaan Skyship real airborne transporation (untransferrable duplicate of The Flying Ship)
  * Improve some weaker troop rosters
-   * Impiltur
+     * Impiltur
      * new unit: Warsword, a good quality medium cavalry unit (replaces generic Light/Heavy Cavalry recruits)
    * Corwell
      * Sister of Synnoria weapons changed to Enchanted Sword, Silver Lance, Enchanted Bow (Forgotten Realms Moonshae p. 56)
@@ -22,6 +22,8 @@ Balance Changes
      * Forester is a bit cheaper and has more elite stats ("The elite corps of foresters" Spellbound p. 52)
      * Add a reclimited "Griffon Ranger" unit ("A unit of griffon riders is staioned at Glarondar, but these are few in number and are used primarily for scouting and as dispatch riders."  Spellbound p. 52)
      * Replace light cavalry with a custom medium cavalry ("These troops are the front line of Aglarondan defense, and are well trained and equipped."  Spellbound p. 52)
+  * Other changes
+    * Reduce Dwarf Battlerager def and increase morale ("almost suicidal)
 
 Fixes
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
@@ -45,3 +47,4 @@ Fixes
    * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
    * Sailing for Lady Luck (needs to fit in her own boat) 
    * Barronar Valkyrie had formation fighter 1 (increased to 2)
+   * Add ability for battlerager to berserk while mounted

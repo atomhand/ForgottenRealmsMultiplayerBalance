@@ -631,8 +631,48 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 
 -- mounted + shield, should not have 2h axe
 #selectmonster 7231 --Dwarven Battlerager
+#copystats 1778 -- "Cu Chulainn" Hero
+#clearspec
+#name "Battlerager"
+-- equipment
+#cleararmor
+#armor 400 -- Dwarven Platemail
+#armor 403 -- Dwarven Kite Shield
 #clearweapons
 #weapon 17 -- Axe
+-- dwarf template stats
+#nametype 271 -- dwarves
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#hp 12
+#prot 0
+#mr 12
+#mor 13
+#str 12
+#att 11
+#def 9
+#prec 9
+#ap 10
+#mapmove 14
+#maxage 350
+#darkvision 80
+#mountainsurvival
+-- battlerager original stats
+#mountmnr 2136
+#gcost 10025
+#hp 16
+#str 14
+#att 12 
+#unsurr 2
+#okleader
+#gcost 10030
+#berserk 3
+#poorleader
+#undisciplined
+-- stat tweaks "Almost suicidal"
+#mor 15
+#def 11
 #end
 
 
