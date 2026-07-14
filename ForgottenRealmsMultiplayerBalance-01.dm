@@ -412,11 +412,11 @@ The vaults of the Thieves Guild have been looted in ##landname##, and their shri
 
 Impiltur is a martial society and at any time the Warswords are continually deployed in patrols, training exercises or major expeditions. Accordingly the Warswords are composed of highly skilled veterans."  
 #basecost 10010
-#hp 10
-#att 12
-#def 12
+#hp 12
+#att 11
+#def 11
 #mor 12
-#skilledrider 2
+#skilledrider 1
 #clearweapons
 #weapon 8 -- Broad Sword
 #weapon 4 -- Lance
@@ -573,13 +573,13 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #unmountedspr1 "FRMultiplayer/aglarondan_cav_unmounted_1.png"
 #unmountedspr2 "FRMultiplayer/aglarondan_cav_unmounted_2.png"
 #name "Aglarondan Cavalry"
-#descr "The standing army stationed at Glarondar and Emmech included a small number of cavalry. Although small, the troops of the standing army were the front line of Aglarondan defense, and were well trained and equipped."
+#descr "The standing army stationed at Glarondar and Emmech included a small number of cavalry. Although few in number, the troops of the standing army were the front line of Aglarondan defense, and were well trained and equipped."
 #hp 11
 #def 11
 #cleararmor
 #armor 13 -- Chain hauberk
 #armor 20 -- Iron cap
-#armor 16 -- Shield
+#armor 2 -- Shield
 #clearweapons
 #weapon 4 -- Lance
 #weapon 17 -- Axe
@@ -626,8 +626,6 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #mon 6003 -- Forester
 #mon 6004 -- Griffon Ranger
 #end
-
--- Dwarves
 
 -- mounted + shield, should not have 2h axe
 #selectmonster 7231 --Dwarven Battlerager
@@ -900,4 +898,142 @@ There were two Orders within the clergy, the Sisters of Life and the Shield of t
 
 #selectmonster 7401 -- Peacehammer
 #mountmnr 6001 -- Griffon (armored)
+#end
+
+# AURAMYCOS
+#selectnation 233
+
+#defcom1 -13010 -- Myconid Guardian Firstshape
+#defcom2 -13009 -- Myconid Circle Leader Firstshape -- (a, c, f,)
+#defunit1 -13007 -- Myconid Sprout Firstshape
+#defmult1 20
+#defunit1b -13007 -- Myconid Sprout Firstshape
+#defmult1b 20
+#defunit2 -13010 -- Myconid Guardian Firstshape
+#defmult2 5
+
+---------- DEFENCES
+#guardcom 7254 -- Myconid Guardian Firstshape
+#guardunit 7247 -- Myconid Sprout Firstshape
+#guardmult 0
+#wallcom 7255 -- Myconid Circle Leader Firstshape -- (a, c, f,)
+#wallunit 7247 -- Myconid Sprout Firstshape
+#wallmult 0	
+
+#end
+
+#selectpoptype 175 -- Myconids
+#defunit1 -13007 -- Myconid Sprout Firstshape
+#end
+
+-- solve broken fort defenders by giving them the stats of valid units
+-- (can;t)
+
+#selectmonster 7254 -- Myconid Guardian Firstshape
+#copyspr 7263
+#name "Giant Redcap"
+#descr "A specialized duty among the myconids was defense. Guardian myconids grew to enormous sizes. 
+
+Giant Redcaps were armed with multiple claws and a toothy maw that could deliver poisonous spores. While not as large as their Mushrend cousins, they were less prone to homesickness, making them frequent companions of Necrospore expansion parties."
+#gcost 10150
+#rcost 20
+#rpcost 35
+#weapon 250 -- poisoned claw stunning
+#weapon 250 -- poisoned claw stunning
+#weapon 225 -- poisonous bite 
+#hp 50
+#size 6
+#prot 10
+#mr 14
+#str 12
+#att 8
+#def 4
+#prec 10
+#ap 10
+#mapmove 14
+#homesick 10
+#startage 30
+#maxage 40
+#end
+
+#selectmonster 7247 --Myconid sprout firstshape
+#copyspr 7250 --webcap
+#name "Tawny Webcap Sprout"
+#descr "A Tawny Webcap was known for its ability to paralyze aggressive intruders. It could do this in two ways. First, Tawny Webcaps could  release a cloud of silky mycelium that would coat their enemies in a tight web. But second, and perhaps more troubling, their entire internal reserve of pressurized mycelium would explode upon their deaths, covering everyone nearby in a gooey, half-baked spray of the stuff, paralyzing those in a wide proximity. This effect was also known to paralyze other myconids. Those who survived encounters with these myconids remarked that colonies often took tactical care to keep Tawny Webcaps in loose formations.
+
+Nearly all myconids rely on proximity to the soils from which they first sprang. Tawny Webcaps are no different.
+
+Myconids, also known as fungus folk, were a race of ambulatory fungus creatures. They were known for their peacefulness and appreciation of quiet, making their homes in the darker corners of the world.
+
+The life of a myconid was strictly scheduled and split evenly between sleep, work and 'melding'. Melding was the core of myconid society, with separation from the process viewed as a frightening and pitiful fate. Violence and disharmony was near unheard of within myconid societies as it adversely impacted the melding process and was largely unneeded.
+
+Although the majority of the fungus folk were peaceful, there existed a far more insidious variant of their kind. Contrary to the gradual growth of normal myconid communities they were heavily expansionist, seeking to quickly grow in both number and territory. In spite of their change in basic behavior they were not known to be evil."
+#gcost 10025
+#rcost 0
+#rpcost 10
+#hp 7
+#weapon 93 -- Fist
+#weapon 262 -- web spit
+#skirmisher 1
+#size 1
+#prot 0
+#mr 14
+#str 2
+#att 4
+#def 1
+#prec 10
+#ap 4
+#mapmove 10
+#homesick 25
+#deathparalyze 5
+#end
+
+#selectmonster 7255
+#copyspr 7256 -- Hydrocap circle leader
+#name "Hydrocap Circle Leader"
+#descr "Myconid society was composed of community groups known as circles. These tight social cliques of twenty or so members were presided over by as many as four circle leaders. 
+
+Members of a circle were very intimate with one another as they melded regularly. A community was typically comprised of 3 or more of these circles, each with their own specific niche. Known circle duties included agriculture, exploration, construction, and hunting for corpses to use as fertilizer or be reanimated by the sovereign. Circle leaders emerged in various forms during their animation.
+
+Hydrocaps maintain a delicate pool of sticky water in the cupped cap atop their head. The odd properties of the hydrocap fluid was a topic of curiosity and study among mages looking for alchemical reagents and spell components in their research."
+#gcost 10035
+#hp 19
+#size 4
+#prot 0
+#mr 14
+#str 5
+#att 6
+#def 6
+#prec 10
+#ap 3
+#mapmove 10
+#magicskill 7 1
+#magicskill 2 1
+#magicskill 4 2
+#deathpoison 8
+#homesick 25
+#startage 50
+#maxage 140
+#holy
+#taxcollector
+#end
+
+#selectmonster 7260 --Sovereign Pater
+#okleader
+#end
+
+#selectmonster 7261 -- Soveriegn Dancer
+#okleader
+#end
+
+#selectmonster 7257 --Necrospore Circle Leader
+#okleader
+#end
+
+#selectmonster 7256 --Hydrocap Circle Leader
+#okleader
+#end
+
+#selectmonster 7258 --Greenbell Circle Leader
+#okleader
 #end

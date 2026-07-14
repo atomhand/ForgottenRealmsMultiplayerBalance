@@ -8,7 +8,7 @@ Balance Changes
    * Sanguine Dowsing Rod cannot be used by demons
  * Give the Halruaan Skyship real airborne transporation (untransferrable duplicate of The Flying Ship)
  * Improve some weaker troop rosters
-     * Impiltur
+   * Impiltur
      * new unit: Warsword, a good quality medium cavalry unit (replaces generic Light/Heavy Cavalry recruits)
    * Corwell
      * Sister of Synnoria weapons changed to Enchanted Sword, Silver Lance, Enchanted Bow (Forgotten Realms Moonshae p. 56)
@@ -22,12 +22,17 @@ Balance Changes
      * Forester is a bit cheaper and has more elite stats ("The elite corps of foresters" Spellbound p. 52)
      * Add a reclimited "Griffon Ranger" unit ("A unit of griffon riders is staioned at Glarondar, but these are few in number and are used primarily for scouting and as dispatch riders."  Spellbound p. 52)
      * Replace light cavalry with a custom medium cavalry ("These troops are the front line of Aglarondan defense, and are well trained and equipped."  Spellbound p. 52)
-  * Other changes
-    * Reduce Dwarf Battlerager def and increase morale ("almost suicidal)
+  * Aramycos
+    * Circle leaders have 50 leadership
+  * Dwarvess of the Rift/Deep Shanatar
+    * Reduce Dwarf Battlerager def and increase morale ("almost suicidal), add ability to berserk while mounted    
+    * Barronar Valkyrie formation fighter increased to 2 (from 1)
+    * Also affected by dwarf size standardisation 
 
 Fixes
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
  * Huge elementals should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
+ * Auramycos PD & fort defenders was useless placeholder units (meant to firstshape to a montag, but this doesn't work for PD)
  * Recruitment anomalies
    * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman
    * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
@@ -45,6 +50,4 @@ Fixes
    * Cleric of Isis has a builtin #weapon Main Gauche of parrying instead of a tradeable #startitem
  * Other stats anomalies
    * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
-   * Sailing for Lady Luck (needs to fit in her own boat) 
-   * Barronar Valkyrie had formation fighter 1 (increased to 2)
-   * Add ability for battlerager to berserk while mounted
+   * Sailing for Lady Luck (needs to fit in her own boat)
