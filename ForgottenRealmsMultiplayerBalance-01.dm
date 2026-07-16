@@ -904,6 +904,41 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 
 -- Misc
 
+-- missing bite attack
+#selectmonster 6730 -- Giant Spider
+#clearweapons
+#weapon 65 -- Venomous fnags
+#weapon 261 -- Web
+#end
+
+#selectmonster 5100 -- Black blood skinshifter (human form)
+#clearweapons
+#cleararmor
+#weapon 12 -- mace
+#weapon 23 -- short bow
+#armor 5 -- leather cuirass
+#armor 120 -- leather cap
+#end
+
+#selectmonster 5101 -- Black blood Skinshifter (wolf form)
+#clearweapons
+#weapon 20 -- bite
+#weapon 29 -- claw
+#weapon 29 -- claw
+#end
+
+#selectmonster 7071 -- Owlbear
+#clearweapons
+#weapon 20 -- bite
+#weapon 236 -- Claw (slotless)
+#weapon 236 -- Claw (slotless)
+#mr 9
+#end
+
+#selectmonster 6806 -- Krenshar
+#mr 8
+#end
+
 -- builtin Main Gauche of Parrying should not be tradable
 --3901 -- Cleric of Isis - wears linens and carries a Main Gauche of Parrying
 #newmonster 6901
