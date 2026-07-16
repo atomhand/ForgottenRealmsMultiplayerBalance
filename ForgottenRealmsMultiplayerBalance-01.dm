@@ -1083,3 +1083,21 @@ Hydrocaps maintain a delicate pool of sticky water in the cupped cap atop their 
 #selectmonster 7258 --Greenbell Circle Leader
 #okleader
 #end
+
+-- Zhentarim
+
+#newmonster 6006
+#copystats 3584 -- Black Destrier
+#spr1 "FRMultiplayer/ardragon_mount.tga"
+#spr2 "FRMultiplayer/ardragon_mount1.tga"
+#mr 10
+#descr "The Zhentarim relied on intimidation. As elite leaders and representatives of the network, Ardragons had to be truly overwhelming figures. An imposing black steed equipped with an enchanted winged saddle supported their image and provided provided valuable mobility."
+#cleararmor
+#armor 276 -- Lightweight Cataphract Barding
+#flying
+#mapmove 24
+#end
+
+#selectmonster 6666 --Ardragon
+#mountmnr 6006
+#end

@@ -48,6 +48,7 @@ Fixes
    * Purple Dragon Knight should use one-handed flail instead of two-handed (is mounted, has shield)
    * Dwarven Battlerager should use a one-handed axe instead of two-handed (is mounted, has shield)
    * Cleric of Isis has a builtin #weapon Main Gauche of parrying instead of a tradeable #startitem
+   * Ardragon should have a mount with a winged saddle, as per the description 
  * Other stats anomalies
    * Huge elementals should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
    * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
