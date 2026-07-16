@@ -32,6 +32,7 @@ Balance Changes
 Fixes
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
  * Auramycos PD & fort defenders was useless placeholder units (meant to firstshape to a montag, but this doesn't work for PD)
+ * Spark spell was broken due to missing quote mark in the #descr
  * Recruitment anomalies
    * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman
    * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders

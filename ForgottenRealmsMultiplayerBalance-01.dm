@@ -21,6 +21,18 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #armor 2 -- shield
 #end
 
+-- spell FIXES
+
+-- fix missing quote mark in description
+#selectspell 244 -- "Fire Flies"
+#name "Spark"
+#descr "A burning spark shoots forth from the wizard's hand. The spark is precise, but has limited armor penetration."
+#nreff 1
+#prec 2
+#fatiguecost 10
+#aispellmod -75 -- Didn't do badlvl because fire mages might run into fight
+#end
+
 -- BLOOD NERFS
 
 #selectspell  "Summon an Erinye Seductress"
@@ -635,6 +647,8 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #mon 6003 -- Forester
 #mon 6004 -- Griffon Ranger
 #end
+
+-- DWARVES
 
 -- mounted + shield, should not have 2h axe
 #selectmonster 7231 --Dwarven Battlerager
