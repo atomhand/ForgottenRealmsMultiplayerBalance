@@ -377,7 +377,7 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #mon 2359 -- Holy Knight
 #end
 
--- Event fix
+-- Calimshan
 
 -- Quote mark typo broke the original event code
 #selectevent 3406 -- The Darkstalker Wars Conclude
@@ -397,6 +397,15 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 Myrkul and Bane betrayed their brother, Bhaal, but in many lands, the Shadow Thieves clung on, weakened but alive. Such was not the case in Calimshan, where the Rundeen Slavers Guild, the Dusk Daggers, and the Syl-Pasha all worked to permanently remove the agents and influence of the Lord of Murders. 
 
 The vaults of the Thieves Guild have been looted in ##landname##, and their shrines to Bhaal destroyed. [Shadow Thieves Guild]"
+#end
+
+-- Nametype errors
+#selectmonster 6688 -- Murabir general
+#nametype 267
+#end
+
+#selectmonster 7667 -- Calishite Cavalry Commander
+#nametype 267
 #end
 
 -- Impiltur buffs

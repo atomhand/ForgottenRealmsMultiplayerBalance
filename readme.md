@@ -31,7 +31,6 @@ Balance Changes
 
 Fixes
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
- * Huge elementals should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
  * Auramycos PD & fort defenders was useless placeholder units (meant to firstshape to a montag, but this doesn't work for PD)
  * Recruitment anomalies
    * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman
@@ -49,5 +48,7 @@ Fixes
    * Dwarven Battlerager should use a one-handed axe instead of two-handed (is mounted, has shield)
    * Cleric of Isis has a builtin #weapon Main Gauche of parrying instead of a tradeable #startitem
  * Other stats anomalies
+   * Huge elementals should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
    * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
    * Sailing for Lady Luck (needs to fit in her own boat)
+   * Missing Calishite nametype for Maribir General and Calishite Cavalry Commander
