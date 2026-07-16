@@ -27,7 +27,9 @@ Balance Changes
   * Dwarvess of the Rift/Deep Shanatar
     * Reduce Dwarf Battlerager def and increase morale ("almost suicidal), add ability to berserk while mounted    
     * Barronar Valkyrie formation fighter increased to 2 (from 1)
-    * Also affected by dwarf size standardisation 
+    * Also affected by dwarf size standardisation
+  * The Dalelands
+    * Lancer att increased to 11 (from 10)
 
 Fixes
  * "The darkstalker wars conclude" event was broken due to a missing quote mark

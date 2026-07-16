@@ -1101,3 +1101,9 @@ Hydrocaps maintain a delicate pool of sticky water in the cupped cap atop their 
 #selectmonster 6666 --Ardragon
 #mountmnr 6006
 #end
+
+-- THE Dalelands
+
+#selectmonster 7426 -- Dalelands Lancer
+#att 11
+#end
