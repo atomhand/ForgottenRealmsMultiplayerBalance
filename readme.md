@@ -53,3 +53,4 @@ Fixes
    * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
    * Sailing for Lady Luck (needs to fit in her own boat)
    * Missing Calishite nametype for Maribir General and Calishite Cavalry Commander
+   * Remove Xpshape for Dwarven Battlesmith (it targeted an empty montag, insufficient context to fix properly)

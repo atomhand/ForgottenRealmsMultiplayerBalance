@@ -701,6 +701,29 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #formationfighter 2
 #end
 
+-- 7183 -- Dwarven Battlesmith
+-- remove xpshape
+#selectmonster 7183
+#copystats 7181 -- Dwarven Template
+#name "Dwarven Battlesmith"
+#descr "A battlesmith is a skilled dwarf armorer and weaponsmith who uses their experience in battle, as well as their masterful weaponsmithing and armorsmithing abilities, to create deadly items for themselves and their kinsmen to wield in defense of their homes. While typically only spellcasters can craft magic items, dwarven ingenuity has found a number of ways to make skill serve where non-dwarves must rely on magic.
+
+Aside from their incredible skill crafting items of war, a battlesmith is equally capable of raining down death and destruction in combat."
+-- Required: BAB 5, 10 ranks in weapon or armor crafting
+#hp 20
+#clearweapons
+#cleararmor
+#weapon 1815 -- Adamantine Battlehammer
+#armor 404 -- Dwarven Half Helm
+#armor 400 -- Dwarven Chainmail
+#att 12 
+#def 12
+#prec 9
+#resources 10
+#unsurr 2
+#gcost 10020
+#end
+
 -- SIZE FIXES
 
 #selectmonster 5041 -- Great Netyarch
