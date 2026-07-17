@@ -57,7 +57,19 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #end
 
 #selectspell "Summon Infernal Barghest"
-#fatiguecost 3500
+#fatiguecost 4000
+#end
+
+#selectmonster 7059 --Infernal Barghest
+#incunrest 30
+#end
+
+#selectspell "Call a Madcap"
+#fatiguecost 3600
+#end
+
+#selectmonster 5093 -- Madcap
+#incunrest 30
 #end
 
 #selectitem 393 -- Sanguine Dowsing Rod
