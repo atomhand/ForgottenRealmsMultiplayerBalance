@@ -3,7 +3,8 @@ The goal is just to fix anything that is outright broken, not actually bring abo
 
 Balance Changes
  * Nerf excessively cheap Blood summoned demon mages. Reason: Blood hunt -> summon more blood hunters engine scales way too fast.
-   * Increase price for Bind Kyton, Summon an Erinye Seductress, Summon a Contract Devil, Summon Infernal Barghest
+   * Increase price for Bind Kyton, Summon an Erinye Seductress, Summon Infernal Barghest
+   * Disable Summon a Contract Devil (blood slave "maintenance" mechanic doesn't work + cheap hunter + strategic teleport + corruptor = POSSIBLY A LITTLE MUCH)
    * Douse -1 to Kyton and Erinye Seductress
    * Sanguine Dowsing Rod cannot be used by demons
  * Give the Halruaan Skyship real airborne transporation (untransferrable duplicate of The Flying Ship)

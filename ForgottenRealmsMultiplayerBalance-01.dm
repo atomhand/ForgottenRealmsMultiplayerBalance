@@ -52,6 +52,7 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #end
 
 #selectspell "Summon a Contract Devil"
+#school -1
 #fatiguecost 3000
 #end
 
