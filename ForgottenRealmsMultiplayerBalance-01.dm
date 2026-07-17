@@ -985,6 +985,14 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 #mr 9
 #end
 
+#selectmonster 6939 -- Owlbear Wildshape
+#clearweapons
+#weapon 20 -- bite
+#weapon 236 -- Claw (slotless)
+#weapon 236 -- Claw (slotless)
+#mr 15 -- Wildshape druid MR
+#end
+
 #selectmonster 6806 -- Krenshar
 #mr 8
 #end

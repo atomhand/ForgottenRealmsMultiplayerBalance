@@ -37,7 +37,8 @@ Balance Changes
        * This is a buff to twiceborn Dodforerir (former 11 months) and a nerf to recruitable Dodforerir (former 1 month)
      * Twiceborn Dodforerir get the same skeleton summon ability as recruitable Dodforerir
    * Misc
-     * Owlbear mr increased to 9
+     * Owlbear MR increased to 9
+     * Owlbear Wildshape MR increased to 15 (to match the original wildshape druid)
      * Krenshar mr increased to 8
      * Goblin Dogslicer base att and def set to 10 (buff)
      * Goblin Dead-eye base att and def set to 9 (nerf)
@@ -66,7 +67,7 @@ Fixes
    * Ardragon should have a mount with a winged saddle, as per the description 
    * Recruitable giant spider missing bite attack
    * Missing equipment and attacks for Black Blood Skinshifter (both forms), Malarite Skinshifter (beast form)
-   * Owlbear missing claw attacks
+   * Owlbear and Owlbear Wildshape missing claw attacks
  * Other stats anomalies
    * Huge elementals & The Walking Statue should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
    * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
