@@ -7,9 +7,10 @@ Balance Changes
    * Disable Summon a Contract Devil (blood slave "maintenance" mechanic doesn't work + cheap hunter + strategic teleport + corruptor = POSSIBLY A LITTLE MUCH)
    * Douse -1 to Kyton and Erinye Seductress
    * Sanguine Dowsing Rod cannot be used by demons
- * Give the Halruaan Skyship real airborne transporation (untransferrable duplicate of The Flying Ship)
- * Improve some weaker troop rosters
-   * Impiltur
+ * National roster tweaks and balance
+   * Halruaa*
+     * Give the Halruaan Skyship real airborne transporation (untransferrable duplicate of The Flying Ship)
+   * Impiltur*
      * new unit: Warsword, a good quality medium cavalry unit (replaces generic Light/Heavy Cavalry recruits)
    * Corwell
      * Sister of Synnoria weapons changed to Enchanted Sword, buckler, Silver Lance, Enchanted Bow (Forgotten Realms Moonshae p. 56)
@@ -23,17 +24,18 @@ Balance Changes
      * Forester is a bit cheaper and has more elite stats ("The elite corps of foresters" Spellbound p. 52)
      * Add a reclimited "Griffon Ranger" unit ("A unit of griffon riders is staioned at Glarondar, but these are few in number and are used primarily for scouting and as dispatch riders."  Spellbound p. 52)
      * Replace light cavalry with a custom medium cavalry ("These troops are the front line of Aglarondan defense, and are well trained and equipped."  Spellbound p. 52)
-  * Aramycos
-    * Circle leaders have 50 leadership
-  * Dwarvess of the Rift/Deep Shanatar
-    * Reduce Dwarf Battlerager def and increase morale ("almost suicidal), add ability to berserk while mounted    
-    * Barronar Valkyrie formation fighter increased to 2 (from 1)
-    * Also affected by dwarf size standardisation
-  * The Dalelands
-    * Lancer att increased to 11 (from 10)
-  * Monsters
-    * Owlbear mr increased to 9
-    * Krenshar mr increased to 8
+   * Auramycos*
+     * Circle leaders have 50 leadership
+   * Dwarves of the Rift/Deep Shanatar*
+     * Reduce Dwarf Battlerager def and increase morale ("almost suicidal), add ability to berserk while mounted    
+     * Barronar Valkyrie formation fighter increased to 2 (from 1)
+   * The Dalelands
+     * Lancer att increased to 11 (from 10)
+   * Monsters
+     * Owlbear mr increased to 9
+     * Krenshar mr increased to 8
+
+    *also affected by consequential bugfixes
 
 Fixes
  * "The darkstalker wars conclude" event was broken due to a missing quote mark
