@@ -31,6 +31,10 @@ Balance Changes
      * Barronar Valkyrie formation fighter increased to 2 (from 1)
    * The Dalelands
      * Lancer att increased to 11 (from 10)
+   * Cairnheim
+     * Dodforerir immortality reform time set to 5 months regardless of origin
+       * This is a buff to twiceborn Dodforerir (former 11 months) and a nerf to recruitable Dodforerir (former 1 month)
+     * Twiceborn Dodforerir get the same skeleton summon ability as recruitable Dodforerir
    * Misc
      * Owlbear mr increased to 9
      * Krenshar mr increased to 8

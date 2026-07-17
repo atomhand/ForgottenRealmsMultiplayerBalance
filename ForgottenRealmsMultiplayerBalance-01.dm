@@ -1258,3 +1258,17 @@ Hydrocaps maintain a delicate pool of sticky water in the cupped cap atop their 
 #att 9
 #def 9
 #end
+
+-- Cairnheim
+
+#selectmonster 7277 -- Dodforerir (Twiceborn)
+#reformtime 2
+#makemonsters3 7279 -- Giant Skeleton First Shape
+#end
+
+#selectmonster 7286 -- Dodforerir (Recruitable)
+#descr "Cairnheim was a monarchial kingdom, ruled by a king and his council of Dodforerir, or 'Death Chiefs.' Both the king and the Dodforerir were all cairns, a form of undead stone giant lich. Each of the Dodforerir, raised from the dead by the king, had in life served as a clan chieftain. Dodforerir were known to require long periods of time before their corpus could reform.
+
+Stone Giant Elders who receive the Twiceborn ritual become Dodforerir upon death, offering a much more cost-effective means of recruiting these units."
+#reformtime 2
+#end
