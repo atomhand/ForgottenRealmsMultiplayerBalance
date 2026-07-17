@@ -895,6 +895,7 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 
 #selectmonster 5072 -- Deurgar Blackguard
 #size 3
+#sailing 3 3
 #end
 
 #selectmonster 6697 -- Duergar Slave
@@ -931,6 +932,7 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 
 #selectmonster 7232 -- Duergar Mind Master
 #size 3
+#sailing 3 3
 #end
 
 #selectmonster 7233 -- Duergar Runesmith
