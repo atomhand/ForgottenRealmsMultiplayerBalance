@@ -31,14 +31,16 @@ Balance Changes
      * Barronar Valkyrie formation fighter increased to 2 (from 1)
    * The Dalelands
      * Lancer att increased to 11 (from 10)
-   * Monsters
+   * Misc
      * Owlbear mr increased to 9
      * Krenshar mr increased to 8
+     * Goblin Dogslicer base att and def set to 10 (buff)
+     * Goblin Dead-eye base att and def set to 9 (nerf)
 
     *also affected by consequential bugfixes
 
 Fixes
- * "The darkstalker wars conclude" event was broken due to a missing quote mark
+ * "The darkstalker wars conclude" event (Calimshan) was broken due to a missing quote mark
  * Auramycos PD & fort defenders was useless placeholder units (meant to firstshape to a montag, but this doesn't work for PD)
  * Spark spell was broken due to missing quote mark in the #descr
  * Recruitment anomalies
@@ -68,3 +70,4 @@ Fixes
    * Remove Xpshape for Dwarven Battlesmith (it targeted an empty montag, insufficient context to fix properly)
    * Mariliths are female
    * Wild Elf Druid (6943, shambling mound type) clashed monster id with another unit, and had a typo in #shapechange command
+   * Essyllissian Dervish should be the same size as other lizardfolk (4->3)

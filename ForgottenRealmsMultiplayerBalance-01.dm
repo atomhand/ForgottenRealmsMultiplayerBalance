@@ -947,6 +947,10 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 #mr 8
 #end
 
+#selectmonster 783 -- Essyllissian Dervish
+#size 3
+#end
+
 -- 6943 -- Wild Elf Druid
 #newmonster 6007
 #copystats 1162 
@@ -1211,4 +1215,16 @@ Hydrocaps maintain a delicate pool of sticky water in the cupped cap atop their 
 
 #selectmonster 7426 -- Dalelands Lancer
 #att 11
+#end
+
+-- Goblins
+
+#selectmonster 6723 -- Goblin Dogslicer
+#att 10
+#def 10
+#end
+
+#selectmonster 6807 -- Goblin Dead-eye
+#att 9
+#def 9
 #end
