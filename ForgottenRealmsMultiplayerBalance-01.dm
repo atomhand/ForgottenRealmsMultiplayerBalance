@@ -306,6 +306,29 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #mapmove 0
 #end
 
+#selectmonster 7517 -- Walking Statue
+#clearspec
+#mapmove 0
+#enc 0
+#magicskill 9 2
+#holy
+#noleader
+#maxage 4800
+#spiritsight
+#magicbeing
+#invulnerable 25
+#fireres 10
+#shockres 10
+#poisonres 50
+#pierceres 1
+#slashres 1
+#castledef 200
+#itemslots 1 -- no items
+#inanimate
+#neednoteat
+#mindless
+#end
+
 -- RPCOST ANOMALIES
 
 #selectmonster 6836 -- Proudspear
@@ -929,6 +952,13 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 #end
 
 #selectmonster 5101 -- Black blood Skinshifter (wolf form)
+#clearweapons
+#weapon 20 -- bite
+#weapon 29 -- claw
+#weapon 29 -- claw
+#end
+
+#selectmonster 7485 -- Malarite Skinshifter (wolf form)
 #clearweapons
 #weapon 20 -- bite
 #weapon 29 -- claw

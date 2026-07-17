@@ -60,10 +60,10 @@ Fixes
    * Cleric of Isis has a builtin #weapon Main Gauche of parrying instead of a tradeable #startitem
    * Ardragon should have a mount with a winged saddle, as per the description 
    * Recruitable giant spider missing bite attack
-   * Missing equipment and attacks for Black Blood Skinshifter (both forms)
+   * Missing equipment and attacks for Black Blood Skinshifter (both forms), Malarite Skinshifter (beast form)
    * Owlbear missing claw attacks
  * Other stats anomalies
-   * Huge elementals should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
+   * Huge elementals & The Walking Statue should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
    * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans
    * Sailing for Lady Luck (needs to fit in her own boat)
    * Missing Calishite nametype for Maribir General and Calishite Cavalry Commander
