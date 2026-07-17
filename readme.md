@@ -12,7 +12,7 @@ Balance Changes
    * Impiltur
      * new unit: Warsword, a good quality medium cavalry unit (replaces generic Light/Heavy Cavalry recruits)
    * Corwell
-     * Sister of Synnoria weapons changed to Enchanted Sword, Silver Lance, Enchanted Bow (Forgotten Realms Moonshae p. 56)
+     * Sister of Synnoria weapons changed to Enchanted Sword, buckler, Silver Lance, Enchanted Bow (Forgotten Realms Moonshae p. 56)
      * Captain of Synnoria gets above changes and slightly better stats than the regular Sisters
    * Waterdeep
      * Buff stats on Griffon Riders and Knights of the Lords Alliance
@@ -65,3 +65,4 @@ Fixes
    * Missing Calishite nametype for Maribir General and Calishite Cavalry Commander
    * Remove Xpshape for Dwarven Battlesmith (it targeted an empty montag, insufficient context to fix properly)
    * Mariliths are female
+   * Wild Elf Druid (6943, shambling mound type) clashed monster id with another unit, and had a typo in #shapechange command

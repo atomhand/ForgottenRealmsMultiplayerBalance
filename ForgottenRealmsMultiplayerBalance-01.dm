@@ -483,6 +483,7 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #weapon 75 -- Enchanted Sword
 #weapon 1900 -- Silver Lance
 #weapon 613 -- Enchanted bow
+#armor 1 -- buckler
 #end
 
 #selectmonster 5087 -- Captain of Synnoria
@@ -490,10 +491,12 @@ Impiltur is a martial society and at any time the Warswords are continually depl
 #weapon 75 -- Enchanted Sword
 #weapon 1900 -- Silver Lance
 #weapon 613 -- Enchanted bow
+#armor 1 -- buckler
 -- Captains are typically more elite than the regular troops
 #att 13
 #def 13
-#mor 15
+#mor 16
+#mr 16
 #str 12
 #end
 
@@ -942,6 +945,68 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 
 #selectmonster 6806 -- Krenshar
 #mr 8
+#end
+
+-- 6943 -- Wild Elf Druid
+#newmonster 6007
+#copystats 1162 
+#copyspyr 7482 -- Wild elf druid (displacer beast)
+#clearspec
+#name "Wild Elf Druid Adventurer"
+#nametype 273 -- Male Elves
+#descr "Wild elves, also known as sy-tel-quessir, were a nearly feral subrace of elves that became more and more reclusive over the years. They had a heavier build and darker skin than other elf subraces. They almost exclusively inhabited forested areas and could be found in the Forest of Amtar, Chessenta, the Chondalwood, Chult, and the Shaar. Some tribes lived in small villages of huts, while others took to a nomadic lifestyle. It was quite common to find both wholly male-dominated and wholly female-dominated tribes.
+
+Wild elves had lost the technical and cultural advances enjoyed by other elven communities and rarely crafted their own magical weapons. Similarly, they had all but lost the knowledge of arcane magic. While the wild elves honored and worshiped the Seldarine, they neither worshiped them exclusively nor did they do it as part of the hierarchical and organized traditions that other Tel-quessir generally espoused. Instead, wild elven religious practice was often very informal and rooted in animistic traditions that saw the fey gods as simply part of a greater pantheon of nature spirits as well as the gods Mielikki and Silvanus."
+#gcost 10010
+#rpcost 10000
+#rcost 4
+#cleararmor
+#clearweapons
+#weapon 7 -- Quarterstaff
+#weapon 1832 -- Elite Javelin
+#armor 415 -- Elven Leather Hauberk
+#armor 119 -- Reinforced Leather Cap
+#hp 25
+#str 11
+#mr 13
+#mor 13
+#att 12
+#def 13
+#prec 13
+#darkvision 60
+#stealthy 35
+#pillagebonus 6
+#mapmove 20
+#patrolbonus 8
+#forestsurvival
+#holy
+#magicboost 0 -2
+#magicboost 1 -2
+#magicboost 2 -2
+#magicboost 3 -1 
+#magicboost 4 -2
+#magicboost 5 -2
+#magicboost 6 0
+#magicboost 7 -2
+#magicboost 8 -2
+#magicboost 9 -1
+--#magicskill 6 2
+--#magicskill 9 1
+--#custommagic 55248
+#autodishealer 1
+#autohealer 1
+#startage 120
+#maxage 240
+#okleader
+#researchbonus -8
+#incunrest 4
+#shapechange 6944 -- Adventuring Shambling Mound
+#montag 13000
+#unsurr 4
+#end
+
+#selectmonster 6944 -- Adventuring Shambling mound
+#shapechange 6007 -- Wild elf druid
 #end
 
 -- builtin Main Gauche of Parrying should not be tradable
