@@ -36,6 +36,11 @@ Balance Changes
      * Dodforerir immortality reform time set to 5 months regardless of origin
        * This is a buff to twiceborn Dodforerir (former 11 months) and a nerf to recruitable Dodforerir (former 1 month)
      * Twiceborn Dodforerir get the same skeleton summon ability as recruitable Dodforerir
+   * Cult of the Dragon
+     * Events impose 150 starting unrest in Westgate and Sembia and a site which add 30 unrest and turmoil scales each turn (25% chance to disappear from turn 10 onwards)
+     * Silver Raven Mercenaries have a reduced patrol bonus
+     * Dragonkin Savage - increase gold cost (40->50) and rpcost (29->49)
+     * Dragonkin Captain - reduced leadership (100->50)
    * Misc
      * Owlbear MR increased to 9
      * Owlbear Wildshape MR increased to 15 (to match the original wildshape druid)
