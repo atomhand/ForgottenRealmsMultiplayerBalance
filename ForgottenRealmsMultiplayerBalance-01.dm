@@ -64,6 +64,10 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #nodemon
 #end
 
+#selectmonster 7340 -- Marilith
+#female
+#end
+
 #selectitem 1000
 #copyitem 430 -- The Flying Ship
 #copyspr 430

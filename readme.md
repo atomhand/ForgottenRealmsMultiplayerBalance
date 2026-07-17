@@ -64,3 +64,4 @@ Fixes
    * Sailing for Lady Luck (needs to fit in her own boat)
    * Missing Calishite nametype for Maribir General and Calishite Cavalry Commander
    * Remove Xpshape for Dwarven Battlesmith (it targeted an empty montag, insufficient context to fix properly)
+   * Mariliths are female
