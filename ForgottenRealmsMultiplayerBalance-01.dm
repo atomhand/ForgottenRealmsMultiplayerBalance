@@ -957,6 +957,11 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 
 -- Misc
 
+-- missing rpcost
+#selectmonster 7212 -- Tomb Tapper
+#rpcost 10000
+#end
+
 -- missing bite attack
 #selectmonster 6730 -- Giant Spider
 #clearweapons

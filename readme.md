@@ -52,7 +52,7 @@ Fixes
    * Spark was broken due to missing quote mark in the #descr
    * Magic Missile only affected demons and undead
  * Recruitment anomalies
-   * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman
+   * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman, Tomb Tapper
    * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
  * Equipment & mount anomalies
    * Earth, Air and Fire elementals could not use their fists due to not being humanoid
