@@ -33,6 +33,14 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #aispellmod -75 -- Didn't do badlvl because fire mages might run into fight
 #end
 
+#selectspell "Magic Missile"
+-- difficult to negate with MR
+-- + armor negating
+-- + can use underwater
+-- + doesn't affect friendly
+#spec 17592194695296
+#end
+
 -- BLOOD NERFS
 
 #selectspell  "Summon an Erinye Seductress"
