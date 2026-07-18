@@ -56,6 +56,7 @@ Fixes
  * Spells
    * Spark was broken due to missing quote mark in the #descr
    * Magic Missile only affected demons and undead
+   * Cure Light Wounds had morale negates property
  * Recruitment anomalies
    * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman, Tomb Tapper
    * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders

@@ -41,6 +41,15 @@ It is not intended to achieve true balance - or anywhere near - just tone down a
 #spec 17592194695296
 #end
 
+#selectspell "Cure Light Wounds"
+-- armor negating
+-- + doesn't affect undead
+-- + doesn't affect inanimate
+-- + doesn't affect enemies
+-- + may use underwater
+#spec 549978240
+#end
+
 -- BLOOD NERFS
 
 #selectspell  "Summon an Erinye Seductress"
