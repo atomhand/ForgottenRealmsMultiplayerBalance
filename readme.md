@@ -53,6 +53,7 @@ Balance Changes
 Fixes
  * "The darkstalker wars conclude" event (Calimshan) was broken due to a missing quote mark
  * Auramycos PD & fort defenders was useless placeholder units (meant to firstshape to a montag, but this doesn't work for PD)
+ * Auramycos could not build forts (resolved by switching fort type Bramble Fort -> Wooden Fort)
  * Spells
    * Spark was broken due to missing quote mark in the #descr
    * Magic Missile only affected demons and undead

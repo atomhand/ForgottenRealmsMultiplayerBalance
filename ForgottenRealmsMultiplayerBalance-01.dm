@@ -1131,6 +1131,10 @@ There were two Orders within the clergy, the Sisters of Life and the Shield of t
 
 # AURAMYCOS
 #selectnation 233
+#fortera 1
+#buildfort 28
+
+#summary "This is a bizarre nation, perhaps best left in the hands of the ai. All of your myconid units suffer from homesickness, losing a percentage of their health each turn they spend away from the province from which they were born. You have no foreign recruitment, and very limited anywhere you have built a fort - not that your wooden forts are much worth building anyway. Your influence, however, extends well beyond Auramycos."  
 
 #defcom1 -13010 -- Myconid Guardian Firstshape
 #defcom2 -13009 -- Myconid Circle Leader Firstshape -- (a, c, f,)
@@ -1160,7 +1164,7 @@ There were two Orders within the clergy, the Sisters of Life and the Shield of t
 
 #selectmonster 7254 -- Myconid Guardian Firstshape
 #copyspr 7263
-#name "Giant Redcap"
+#name "Giant Redcap (PD)"
 #descr "A specialized duty among the myconids was defense. Guardian myconids grew to enormous sizes. 
 
 Giant Redcaps were armed with multiple claws and a toothy maw that could deliver poisonous spores. While not as large as their Mushrend cousins, they were less prone to homesickness, making them frequent companions of Necrospore expansion parties."
@@ -1187,7 +1191,7 @@ Giant Redcaps were armed with multiple claws and a toothy maw that could deliver
 
 #selectmonster 7247 --Myconid sprout firstshape
 #copyspr 7250 --webcap
-#name "Tawny Webcap Sprout"
+#name "Tawny Webcap Sprout (PD)"
 #descr "A Tawny Webcap was known for its ability to paralyze aggressive intruders. It could do this in two ways. First, Tawny Webcaps could  release a cloud of silky mycelium that would coat their enemies in a tight web. But second, and perhaps more troubling, their entire internal reserve of pressurized mycelium would explode upon their deaths, covering everyone nearby in a gooey, half-baked spray of the stuff, paralyzing those in a wide proximity. This effect was also known to paralyze other myconids. Those who survived encounters with these myconids remarked that colonies often took tactical care to keep Tawny Webcaps in loose formations.
 
 Nearly all myconids rely on proximity to the soils from which they first sprang. Tawny Webcaps are no different.
@@ -1219,7 +1223,7 @@ Although the majority of the fungus folk were peaceful, there existed a far more
 
 #selectmonster 7255
 #copyspr 7256 -- Hydrocap circle leader
-#name "Hydrocap Circle Leader"
+#name "Hydrocap Circle Leader (PD)"
 #descr "Myconid society was composed of community groups known as circles. These tight social cliques of twenty or so members were presided over by as many as four circle leaders. 
 
 Members of a circle were very intimate with one another as they melded regularly. A community was typically comprised of 3 or more of these circles, each with their own specific niche. Known circle duties included agriculture, exploration, construction, and hunting for corpses to use as fertilizer or be reanimated by the sovereign. Circle leaders emerged in various forms during their animation.
@@ -1245,6 +1249,7 @@ Hydrocaps maintain a delicate pool of sticky water in the cupped cap atop their 
 #maxage 140
 #holy
 #taxcollector
+#okleader
 #end
 
 #selectmonster 7260 --Sovereign Pater
