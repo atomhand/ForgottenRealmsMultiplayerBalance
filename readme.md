@@ -53,11 +53,15 @@ Balance Changes
 Fixes
  * "The darkstalker wars conclude" event (Calimshan) was broken due to a missing quote mark
  * Auramycos PD & fort defenders was useless placeholder units (meant to firstshape to a montag, but this doesn't work for PD)
+   * Myconid poptype PD is also affected
  * Auramycos could not build forts (resolved by switching fort type Bramble Fort -> Wooden Fort)
+ * "Things of the Deep" poptype (191) had ID error getting Aboleth Sovereign/Demon Ray Zealot recruit instead of Juvenile/Ancient Kraken
  * Spells
    * Spark was broken due to missing quote mark in the #descr
    * Magic Missile only affected demons and undead
    * Cure Light Wounds had morale negates property
+   * Chum the Water (+minor and major versions) used a template monster with a #firstshape command, which doesn't work for combat summons. Fixed by using the desired montag directly.
+   * Disabled Feast of Sekolah (tried to change the creature type of Howl, but Howl is hardcoded)
  * Recruitment anomalies
    * Missing rpcost for Halruaan Skyship, Proudspear, Wemic Huntress, Wemic Warrior, Wemic Firemane, Wemic Shaman, Tomb Tapper
    * Impiltur cap site: Holy Knights should be recruitable as troops, not commanders
@@ -87,3 +91,4 @@ Fixes
    * Mariliths are female
    * Wild Elf Druid (6943, shambling mound type) clashed monster id with another unit, and had a typo in #shapechange command
    * Essyllissian Dervish should be the same size as other lizardfolk (4->3)
+   * Sekolahn Dreadknights shark retinue uses the montag directly instead of the #firstshape template shark wihch doesn't work

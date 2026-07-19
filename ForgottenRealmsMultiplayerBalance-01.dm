@@ -966,6 +966,26 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 
 -- Misc
 
+-- id error on krakens
+#selectpoptype 191 -- Things of the Deep (krakens, anguillians, vodyanoi)
+#clearrec
+#cleardef
+#defcom1 7384 -- Anguiliian Chieftain
+#defcom2 7307 -- Juvenile Kraken
+#defunit1 7383 -- Anguiliian Hunter
+#defunit1b 7179 -- Kuo-toan Goggler
+#defmult1 20
+#defmult1b 20
+#defunit2 7561 -- Deep Vodyanoi
+#defmult2 12
+#addrecunit 7179 -- Kuo-toan Goggler
+#addrecunit 7383 -- Anguiliian Hunter
+#addrecunit 7561 -- Deep Vodyanoi
+#addreccom 7384 -- Anguiliian Chieftain
+#addreccom 7307 -- Juvenile Kraken
+#addreccom 7308 -- Adult Kraken
+#end
+
 -- missing rpcost
 #selectmonster 7212 -- Tomb Tapper
 #rpcost 10000
@@ -1392,4 +1412,45 @@ The ringleaders have been hunted down and will no longer stir up dissidents in #
 #req_turn 10
 #removesite 2200
 #nolog
+#end
+
+
+-- Aleaxtis
+
+#selectmonster 7583
+#watershape -13014
+#end
+
+#selectmonster 7613 -- Sekolanh Dreadknight
+#descr "The Sekolahn Dreadknights were holy warriors dedicated to the Shark Father. Never subtle, the Dreadknights of Sekolah chummed the water ahead of battle to attract even more sharks and to whip their allies into a frenzy.
+
+Sekolahn Dreadknights are accompanied into battle by 1d6 sharks."
+#clearspec
+#poisonres 10
+#darkvision 80
+#batstartsum1d6 -13014 -- Shark Montag
+#beastmaster 3
+#berserk 3
+#goodleader
+#goodundeadleader 
+#holy
+#unsurr 4
+#skilledrider 3
+#aquatic
+#end
+
+#selectspell "Chum the Water"
+#damage -13014
+#end
+
+#selectspell "Chum the Water, Minor"
+#damage -13014
+#end
+
+#selectspell "Chum the Water, Greater"
+#damage -13014
+#end
+
+#selectspell "Feast of Sekolah"
+#school -1
 #end
