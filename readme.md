@@ -81,6 +81,7 @@ Fixes
    * Recruitable giant spider missing bite attack
    * Missing equipment and attacks for Black Blood Skinshifter (both forms), Malarite Skinshifter (beast form)
    * Owlbear and Owlbear Wildshape missing claw attacks
+   * Tethyrian Druid Wildshape (Gryphon) missing attacks
  * Other stats anomalies
    * Huge elementals & The Walking Statue should not have Immobile tag (prevents movement in combat) - #mapmove 0 is sufficient to prevent strategic movement
    * Standardise dwarves and duergar at Size 3, and fix a few size 2 elves and humans

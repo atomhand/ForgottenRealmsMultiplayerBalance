@@ -1037,6 +1037,11 @@ Aside from their incredible skill crafting items of war, a battlesmith is equall
 #mr 15 -- Wildshape druid MR
 #end
 
+#selectmonster 7731 -- Tethyrian Druid Wildshape
+#weapon 408 -- Talons
+#weapon 404 -- Beak
+#end
+
 #selectmonster 6806 -- Krenshar
 #mr 8
 #end
