@@ -8,7 +8,7 @@
 This is an unofficial balance patch for the Forgotten Realms mod.
 It is not intended to achieve true balance - or anywhere near - just tone down anything that is outright ridiculous."
 
-#selectmonster 5030 - Tymora "Lady Luck"
+#selectmonster 5030 -- Tymora "Lady Luck"
 #sailing 6 6 -- boat should be large enough to carry herself
 #end
 
@@ -222,24 +222,24 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 
 #selectmonster 7054 -- Small Fire Elemental
 #clearweapons
-#weapon 2001 - Flaming Fist
+#weapon 2001 -- Flaming Fist
 #end
 
 #selectmonster 7055 -- Medium Fire Elemental
 #clearweapons
-#weapon 2001 - Flaming Fist
+#weapon 2001 -- Flaming Fist
 #end
 
 #selectmonster 7056 -- Large Fire Elemental
 #clearweapons
-#weapon 2001 - Flaming Fist
-#weapon 2001 - Flaming Fist
+#weapon 2001 -- Flaming Fist
+#weapon 2001 -- Flaming Fist
 #end
 
 #selectmonster 7057 -- Huge Fire Elemental
 #clearweapons
-#weapon 2001 - Flaming Fist
-#weapon 2001 - Flaming Fist
+#weapon 2001 -- Flaming Fist
+#weapon 2001 -- Flaming Fist
 #end
 
 -- Huge elemental mobility fix
@@ -404,7 +404,7 @@ The original creation of Skyships dated back to Netheril and were a carefully gu
 #end
 
 -- Should have a reusable light lance, not a lance+spear
-#selectmonster 7660 - Calishite Rider
+#selectmonster 7660 -- Calishite Rider
 #clearweapons
 #weapon 357 --Light Lance (re-usable)
 #end
@@ -1113,7 +1113,7 @@ Wild elves had lost the technical and cultural advances enjoyed by other elven c
 #end
 
 -- builtin Main Gauche of Parrying should not be tradable
---3901 -- Cleric of Isis - wears linens and carries a Main Gauche of Parrying
+--3901 - Cleric of Isis - wears linens and carries a Main Gauche of Parrying
 #newmonster 6901
 #copystats 2069
 #copyspr 2069 
