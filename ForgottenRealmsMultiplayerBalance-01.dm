@@ -1,4 +1,4 @@
-#modname "Forgotten Realms Multiplayer Balance 0.1"
+#modname "Forgotten Realms Multiplayer Balance 0.1B"
 #icon "FRlogo.tga"
 #version 0.1
 #domversion 6.00
